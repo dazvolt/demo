@@ -1,14 +1,30 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  "propertyZone": {
+      "width": "3000",
+      "height": "5000",
+      "plantKits":
+      {
+        "plantKit1": {
+          "ID": "2",
+          "Location": "12, 74, 0",
+        },
+        "plantKit2": {
+          "ID": "4",
+          "Location": "87, 12, 0",
+        }
+      },
+  },
+  "roads":
+      {
+        "road1": {
+          "ID": "1",
+          "StartPoint": "25, 48, 0",
+          "EndPoint": "87, 12, 0",
+        },
+        "road2": {
+          "ID": "2",
+          "StartPoint": "12, 74, 0",
+          "EndPoint": "19, 45, 0",
+        }
+      },
 }
